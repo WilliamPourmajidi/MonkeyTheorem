@@ -1,7 +1,6 @@
 import random
-
-
-inputpassword = input("Define a 6 digit password constructed of a, b, c, d, e , f ]")
+import getpass
+inputpassword = getpass.getpass('Define a 6 digit password constructed of a, b, c, d, e , f ]:')
 
 AvailableChrs = ['a', 'b', 'c', 'd', 'e', 'f']
 
